@@ -1,0 +1,26 @@
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.navbar>h1>span {
+    color: yellow;
+}
+.navbar ul {
+    list-style: none;
+    flex-grow:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+.navbar a {
+    color: rgb(249, 246, 246);
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: rgb(156, 149, 149);
+}
